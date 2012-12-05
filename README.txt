@@ -5,6 +5,5 @@ As far as our unique stuff goes, there is an additional file, _listener.php, whi
 1. Install apache/php/mysql
 2. Enable mod-rewrite for apache
 3. Extract the archive to your www or htdocs directory (wordpress should end up in /path/to/htdocs/)
-4. Create a mysql user named 'posconnect' with the password 'abcdefg', or edit the wp-config.php file to use a mysql username and password of your choice
-5. Create a database called posconnect and execute the queries provided in posconnect.sql
-6. Log in to wordpress with the user 'admin' and password 'posconnect' to start messing around
+4. Execute the queries provided in posconnect.sql as your mysql root user. This will create the posconnect user and database for you.
+5. Log in to wordpress with the user 'admin' and password 'posconnect' to start messing around
